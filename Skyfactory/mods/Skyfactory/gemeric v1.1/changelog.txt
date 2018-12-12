@@ -1,0 +1,17 @@
+-----------------------v1.1-------------
+
+-added aoe hoes and supercharged hoes-hoe a 3x3 at once
+-added tool extension bit
+-added tool bit
+-added aoe rune
+-added glass panes in xpanes mod is installed
+-added glass
+-added speckled bricks
+-added coated bricks
+-added enhanced chaos essence
+-added lumber axes - cuts the whole tree in 1 or 2 breaks
+-supercharged paxels are same as normal just better but they have a special ability-on placing they turn into an activated super charged paxel with the same durability but much better mining speeds and can break things like obsidian, they can also be turned back into normal paxels, this allows for more control with higher teir tools
+-added paxels - normal is exact same as shovel, axe, and pick of that gem + tool rod
+-added chaos gems- atm do nothing
+-tool rods now just display + symbols for each stat it increses
+-gems now display their speed and durability stats

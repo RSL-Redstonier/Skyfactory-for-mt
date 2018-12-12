@@ -1,0 +1,477 @@
+Adds hammers, magical ore plants, sieves and other special things to help life in the void or just a normal world
+also serves as my attempt to recreate extra util 1 and 2
+Best used with unified inventory or some crafting guide
+
+Special Thanks to:
+-Minermoder27 for compiling the files to git hub.
+
+I highly recommend you download this sub-mod to give a void world with a tree and dirt
+[url]https://forum.minetest.net/viewtopic.php?f=9&t=19443[/url]
+
+
+Version: 1.7
+License: 
+licenses for textures/code thats not mine can be found in the license file
+if you find something of yours or somebody else's thats not mentioned in the license file, please let me know and i will fix it
+all else is CC - meaning you can do anything you like except changing the license and you must give me and all people in the license file some sort of agnolagment 
+
+Dependencies: 
+default
+bucket
+terumet
+farming
+dye
+pipeworks?
+3d_armor?
+hopper?
+
+CHANGELOG
+[code]
+
+-------------------1.7---------------------
+
+-fixed certain tools crashing the game if used while not pointing to anything
+-removed chisel
+-all plants from farming_redo can now be obtained via plant mixed soil and siving
+-removed presti bag and storage because they are separate mods
+-removed auto sieves do to them being useless by the time a player gets them
+-removed all infused soils, mystical bonemeal, and harvest/growth crystals(moving to seperate mod)
+-technic ores can now be obtained via chunks from gravel sieving(only soft depends)
+-water can now be removed from reservoirs with extract pipes
+-added insert and extract pipes
+-added lava pipes
+-dirt in sieves can now drop all bush seeds not just raspberries and strawberries
+-bushes mod entirely placed into skytest because it can no longer be downloaded as a separate mod
+-infinate water node no longer supports giving water with buckets and can now be turned on and off
+-because of how the pipes work they can be a bit tricky to use
+-reservoirs are now pipe compatible but only going in to them not out
+-exit pipes will pull water from infinity water source block and move it through pipes
+-added pipe wrench-can turn normal pipes into exit pipes
+-added fluid conduits-place like pipes and can transport water through them
+-1 cosmic carrot can now be compressed 7 times then used to craft a Carrot Nebula which can be eaten unlimited amounts of times
+-removed some unnecessary depends
+-removed grenade
+-now supports farming redo only
+-added cosmic drops, ingots, and crystals
+-added hopper compatible neptonium collector(costs 5 and 1/3 neptonium ingots to craft but after that gives neptonium nuggets every 10 seconds)
+-cosmic hammer can transform into cosmic annihilation increasing mining speed
+-paxel replaced with cosmic hammer
+-changed bedrockium tools and draxels textures
+-fixed bedrockium shovel mining stone not dirt
+-removed bedrockium sword and soul knife
+-added subspace walker from bell07's subspace walker mod
+-added personal time dilator(grants player settime priv) is cheaper than the time dilator blocks
+-spectral books now stack up to 4 per slot
+-removed support for rewards as it was experimental and not finished
+-various bug fixes
+-various new crafting items and recipies for making stuff
+-removed enirboreh
+
+-------------------1.6---------------------
+
+-added belt(most of the code derived from wuzzy's player tools mod) while wearing the belt you can use the command /sethotbarsize to change your hotbar size to anything from 1-23(warning this will cause a weird texture if using unified inventory
+-added mese tipped compressed crook(functions same as normal compressed crook but uses the strange powers of mese to do things on a punch instead of breaking)
+-mese hammer (being made from a magical material) can now be used to turn a 1 time compressed cobble, gravel, or sand block into its respective hammered node on punch
+-mese hammer is now slightly more expensive and also mines sand as fast as steel shovel(just like diamond hammer)
+-added heat less grinder functions same as the terumet heat grinder but with now heat use and 2x slower
+-using a 1 time compressed cobblestone block on an empty crucible will entirely fill it up(you lose 1 cobble per fill but its more convenient)
+-terumet grinder now supports hoppers
+-fixed gravel not dropping gravel unless you used a hammer
+-added tier 1-9 cobble gen(hopper compatible) also very cheep
+-removed stranded cobble gen mk1 and mk2
+-neptonium armor lets you-have high protection, have high heal, have high fire prot, have high radiation prot, fast priv, fly priv, noclip priv, zoom priv, low gravity, never drown, and wireframe priv
+-added cosmic carrots (the ultimate food) 
+-added neptonium armor + armor set(you can only wear the armor set) the neptonium armor requires 3d armor admin armor pieces per neptonium piece (exam. admin helmet to craft neptonium helmet) the only way to obtain admin armer pieces is to use loot bags(I recommend using the ultimate ones)
+-combined all armor files into a single armor file
+-added star fuel (smelts stuff for a LONG time in a furnace) also works in terumet furnace generator
+-added power cores, neptonium crystals, and spectral ingots
+-added neptonium nuggets
+-node enhancers now have a much cooler texture
+-added flint stiffened mesh and sieve(use flint mesh on empty normal sieve) doesn't have a delay on sieving but still only yields as mush as normal sieve  
+-fixed angel block placement
+-added 1 time use variants of node disrupter and node enhancer
+-Molecular Creation Chests are now hopper compatible
+-added tier 1-9 Molecular Creation Chests(dupes any item placed into them the higher the tier the faster they work) requires tones of every tier 8 factory to craft
+-bone meal can now also be composted
+-composting is now more than twice as fast
+-added day, night, dawn, and dusk time dilators (will constantly set the time to respective time every 5 seconds while on)
+-removed super fuel and free stuff gen
+-speed boots now grant player fast priv instead of player speed override(thus allowing for better control)
+-added harvest crystal(auto harvests ore seeds)
+-growth crystal now speeds up ore seeds growth(1 gc = faster, 2 gc = fastest)
+-added terumet to all ore crops(papy, seeds, sprouts)
+-added tier 8 for all factorys using neptonium to craft
+-added neptonium is so dense that it warps the fabric of space in such a way that it appears to be super light allowing for 65534 ingots to be stored in a single stack(not that any one person can EVER possibly get that much cobble stone in a survival skyfactory setup without some sort of duping machine / tool or with hacks because you would need 9.243931163266027e+18 peices of cobble stone to craft 1.525 full stacks (65534 = 1 full stack) of neptonium)
+-added untonium-octonium(just used for crafting neptonium)
+-removed bedrockium block so node enhancer cant be used on bedrockium
+-added tier 1-7 factorys for{
+1.tin
+2.steel
+3.glowstone
+4.redstone
+5.lapis
+6.enchanted crystal
+7.gold
+8.diamond
+9.mese crystal
+10.flint
+11.clay
+12.raw terumet
+13.dust
+}
+-added heat powered terumet bag generator (fabricates common loot bags from pure heat)
+-added 6 tiers of loot bags all drop different amounts of items just like lucky ore used to
+-removed lucky ore and lucky ore block
+-added terumet heat powered grinder turns 1 cobble into gravel,1 gravel into sand, 1 sand into dust, and 10 dust into 1 powder(hand grinder takes 15 dust to 1 powder)
+-added porcelain block crafts by 2x2 porcelain lump drops 4 lumps
+-added gravel and sand compressed blocks
+-added cobble, gravel, sand, and dirt factorys
+-added factory framework to easily add new tier 1-7 factory's
+-added tier 1-7 silk factory's (each generates silk but at different times)
+-powder will now also drop terumetal chunks
+-dirt in can now drop bonemeal in all sieves
+-dirt in auto sieve will drop bones instead of pebbles
+-added steel and obsidian reservoir to hold any liquid a bucket can(taken from scitest mod)
+-re-added vein miner leaf collector
+-sticks can now be used as compost
+-assembler supports unified_inventory crafting guide
+-press supports unified_inventory crafting guide
+-added press(place pattern in the bottom and corresponding material in the top)
+-added assembler(assemble proper components to make chips)
+-added wire, diode, and board press patterns
+-added copper and solder wire
+-added diode
+-added silicon, and silicon board
+-added factory base
+-added blank chip, basic circuit, and advanced circuit
+-roasted silkworms now look darker than normal ones
+-added queen worm(not edible)
+-added dense leaves crooking a dense leaf will rarely yield a queen silkworm(chances are much improved by using a compressed crook)
+-compressed crook now has its own wacky texture
+-leaf collectors are no-longer required to obtain infested leaves
+-all configured auto sieves can receive their sieve-able item via pipeworks pipes from the top
+-all configured auto sieves can revive fuel via pipeworks pipes from the side or bottom
+-dirt auto sieve will yield 12 of 1 item from the dirt sieve list per dirt
+-dust auto sieve will yield 15 of 1 item from the dust sieve list per dust
+-desert sand auto sieve will yield 9 of 1 item from the desert sand sieve list per desert sand
+-sand auto sieve will yield 6 of 1 item from the sand sieve list per sand
+-gravel auto sieve will yield 3 of 1 item from the gravel sieve list per gravel
+-auto sieves use any furnace fuel item as fuel(the better the fuel the longer it will last)
+-auto sieves can be reverted back into an unconfigured auto sieve simply by placing in the crafting grid
+-added gravel, sand, desert sand, dust, and dirt auto sieves(craft an unconfigured auto sieve with any of the said resources to configure it)
+-added unconfigured auto sieve(same recipe as it used to be but with a machine frame in the middle)
+-sieve and heavy sieve now support desert sand which is slightly better than normal sand
+-philosophers stone can now turn stone to desert stone and desert stone to desert sand(ik adding this and the heater cinda makes the dragons breath wand useless)
+-added skytest:heater which will melt cobble in a crucible much faster than a torch
+-bonemeal now sorta works with growing cactus and papyrus
+-removed the ability to sieve growth crystals 
+-various bug fixes
+-various new crafting items and recipes for making stuff
+-removed enirboreh
+
+--------------------1.5--------------------
+	
+-terumetal can only be obtained via heavy sieve and dust 
+-added terumetal lump chunks
+-now uses alloys found in terumet
+-added machine frame to craft the new grinder
+-removed the first grinder
+-added a second grinder turns 15 dust into 1 powder the grinder can be broken at any stage in the proses and will keep all progress and items
+-powder can only be sieved in a heavy sieve and will now drop full lumps, full diamonds, full mese crystals, and full enchanted crystals instead of just fragments, chunks, or materials
+-added heavy sieve mesh for heavy sieve
+-replaced auto sieve with heavy sieve(cheaper and looks different but still functions the same)
+-changed recipe of advanced compost bin
+-wand of dragons breath is the real good one blasts many blocks with fire particles burning flammable materials, smelting sand, singing grass, melting obsidian, turning stone into desert stone, turning gravel into technic granite, and instantly melts cobble inside of the porcelain crucible
+-light wand places light bubbles
+-spectral wand turns book shelves into spectral books which are used to craft the other 2 wands
+-added spectral wand wand of light and wand of dragons breath
+-powder can only be sieved in an auto sieve
+-sand dust and powder will not yield any flint in either sieve
+-powder is the ultimate sievable yielding TONS of items per piece
+-added powder which can only be obtained from a hand grinder which is created by placing a stone hand hammer into an empty sieve frame
+-removed storage drawers due to licensing and my terrible modifications breaking them
+-added massive tree and sapling works with bonemeal
+-drastically increased the durability of crook 3X3X1
+-increased pebble drop rate from dirt in the hand sieve
+-philosophers stone also allows you to cycle through all the default leaf types
+-added bones and bonemeal textures and the main code came from the ethereal mod with slight tweaks
+-removed all dependence on technic
+-added draxel the ultimate tool insta mines almost every block possible does a metric ton of damage and a right click will place any block to its right
+-added night vision goggles simulates Minecraft night vision potion effect
+-added scuba helm lets you breathe underwater indefinitely
+-added MBA (mouth breather assembly) will refill in the air and can be used to refill your breath while underwater
+-added a simple grenade
+-added slingshot to launch items at will
+-added snorkle to refill you breath if there is air a few blocks above your head while your underwater
+-added steel pontoon which can be placed in water
+-added super fuel for the junk generator
+-added lucky ore drops ANY random item in the game even modded and unobtainable items(like air)
+-added lucky ore block drops tons of ANY random items in the game even modded and unobtainable items(like air)
+-added portable chest
+-added bag
+-added bridge tool
+-removed world anchor
+-added node enhancer(same as the node disruptor but is EXTREMELY expensive and can dupe any node)
+-added node disruptor(insta breaks ANY block even unbreakable ones. is a hard set break so it even will break chests and things with formspecs but will not drop any of the items inside them)
+-added junk generator turns lots of any item into 1 item sorta like equivalent exchange
+-added running shoes makes you much faster
+-added jump leggings makes you jump higher
+-added gravity boots makes you defy gravity
+-removed chess and Tetris minigames
+-added bedrockium ingots, bedrokium blocks, and bedrockium hyper tools
+-added compressed cobble dirt and obsidian
+-increased loot from dust
+-added philosophers stone to turn cobble to gravel and gravel to sand and sand to dust
+-added grinder to turn cobble to gravel and gravel to sand and sand to dust
+-various bug fixes
+-various new crafting items and recipies for making stuff
+-removed enirboreh
+
+--------------------1.4--------------------
+
+-added Growth essence to instant grow any of the ore crops
+-tweaked growth rates of ore papy
+-added fountain looking infinite water source. right click with any type of empty bucket and get infinite water
+-added blank seeds and ore plants just like magical crops in Minecraft
+-ore papyrus now drops itself which then needs to be crafted in a 3x3 to get respective ore, super sprouts still drop ore
+-fixed transparency on hammer textures 
+-diamond hammer mines sand and gravel the same speed as a steel shovel
+-added copper and tin ore chunks
+-fixed barrels barrels and crucibles top texture always showing oak wood
+-added world anchor(will keep a portion of the world always loaded)
+-clay bucket is now compatible with barrels and crucibles
+-added lapis, Redstone, glowstone, and tin, infused dirt and super infused dirt
+-various tweaks to sieves and machines now run smoother 
+-added clay bucket for getting lava from crucible
+-added climbing pick that replicates the sneak glitch 
+-added engraver(only works for 0.4.16 and newer) right click with any item to change the description of it.(like Minecraft anvil)
+-added achievements for most of the ones in the achievement book to detect and update automatically
+-added freezer that can turn water into ice...nice. will also cool lava 
+-added working formspec based Tetris game to play. Perfect for me cuz we all know I have no friends :(
+-added working formspec based chess game to play with friends. Useless if you're alone like me :(
+-just for fun, nyan cats will now move leaving a trail of rainbows, if on hits an unloaded chunk or a block beside air it will change direction
+-added chisel to chisel blocks into different shapes
+-chisel has 7 modes{
+#1:Chisel 4 Edges
+#2:Horizontal Groove
+#3:Vertical Groove
+#4:Cross Grooves
+#5:Square
+#6:Chisel ladder
+#7:Chisel Foot Hold
+}
+-added super bright starlight that produces far more than 14 light level
+-various bug fixes
+-various new crafting items and recipes for making stuff
+-removed enirboreh
+
+--------------------1.3--------------------
+
+-added angel block with which one can fly and use to place a block under your feet
+-added oak, aspen, pine, jungle, and acacia wooden barrels(all work exactly the same)
+-if extra_util mod is enabled(another of my mods, currently unreleased){ 
+-DSU cannot hold tools
+-added DSU(Deep Storage Unit)holds 2,000,000 of ONE item. can be transported by using the formspec(don't break or you will lose all items in it.)crafted with bedrockium ingots and 1 enchanted block
+}
+-if 3d_armor mod is enabled{ 
+-added a pair o' wings(grants the fly priv. while wearing them)
+}
+-if pipeworks mod is enabled{ 
+-added pipe support for DSU, all drawers(all woods + 1x1 1x2 2x2 drawers)
+-if using pipeworks + mesecons you can automate pretty much every thing by using deployers and node breakers. deployers will pretty much right-click on any block with what every is in their inventory. nodebreakers will break nodes...BUT you can insert any tool and it will yield the same results as if you used the same tool on the node, meaning you can use hammers, crooks, silkworms, etc.
+}
+-if MCL_core mod is enabled{ 
+-added support for all types of wood for drawers
+}
+-added achievement book with a few goals in it already(more to come)
+-added x1 x2 and x4 storage drawers for all wood types
+-all leaf collectors can be used on infested leaves to collect them
+-added enchanted crystal and enchanted block(used to craft stuff)
+-added entity jetpack( use arrow keys, spacebar, and shift key to control)warning is effected by lag, fly at your own risk
+-silkworms can be cooked and eaten(If you have a stomach of iron)
+-right-click on a wooden barrel that is full of water with dust and the barrel will fill with clay. Rightclick to retrieve the clay block
+-added Mk2 cobble gen
+-added doc support for (almost) every item/block/ tool that actually does something
+-removed dense leaves
+-removed leaf press(the one with the gui/inventory/formspec and ABM)
+-use a leaf weight on a wooden barrel then fill with either cactus of "group:leaves" and wait (after 32 seconds it will extract the water drop the items, at which point using a wooden or iron bucket will
+fill the bucket with water)  
+-removed compost bin gui/inventory/formspec
+-replaced compost bin with wooden barrel(the same items can be composted)barrel will work just like the one in Minecraft(used to get dirt, water, clay, etc.)
+-wooden barrel has a decomposing animation
+-added all the colors of mulch(blue, green, etc.)mulch is affected by gravity
+-added advanced compost bin(like regular but can get you clay and mulch as well, also works instantly and can color mulch)
+-added porcelain lumps(use to craft raw crucible)
+-added Raw crucible(smelt into fired crucible)
+-added Fired crucible(input 8 cobble and place a torch or anything from group:igniter directly under to slowly melt the cobble into lava) igniter will work faster than torch. when the lava is done use an iron bucket
+-added an uncraftable item for testing that tells you how many registered items nodes and tools there are in that world(lists all strings in items file in world folder)
+-removed auto sieves' gui/inventory/formspec
+-auto sieve now only sieves faster than the normal sieve
+-auto sieve drops 2X that of normal sieve
+-normal sieve is now a multi-block structure(just like Minecraft)
+-sieves can now drop these items{
+listed rarest to most common
+dirt will drop 1 item and 1 pebble
+dirt:
+"skytest:strawberrybush_seeds"
+"skytest:raspberrybush_seeds"
+"skytest:pine_tree_seeds"
+"skytest:pebble 7"
+"skytest:acacia_tree_seeds"
+"skytest:aspen_tree_seeds"
+"skytest:oak_tree_seeds"
+"farming_plus:banana_sapling"
+"farming_plus:cocoa_sapling"
+"skytest:jungle_tree_seeds"
+"skytest:cactus_seeds"
+"skytest:papyrus_seeds"
+"farming_plus:tomato_seed"
+"farming_plus:rhubarb_seed"
+"skytest:pebble 3"
+"farming_plus:carrot_seed"
+"crops:tomato_seed"
+"crops:green_bean_seed"
+"crops:potato_eyes"
+"crops:melon_seed"
+"crops:pumpkin_seed"
+"crops:corn"
+"skytest:pebble 2"
+"morefarming:seed_corn"
+"farming_plus:strawberry_seed"
+"farming_plus:orange_seed"
+"farming_plus:potato_seed"
+"skytest:grass_seeds"
+"farming:seed_wheat"
+"farming:seed_cotton"
+"morefarming:seed_wildcarrot"
+"morefarming:seed_teosinte"
+
+gravel sand and dust:
+"skytest:diamond_chunks"
+"default:mese_crystal_fragment 3"
+"skytest:gold_chunks"
+"skytest:lapis"
+"skytest:redstone"
+"skytest:glowstone"
+"skytest:iron_chunks"
+"default:copper_lump"
+"default:coal_lump"
+"default:flint"
+
+(gravel will drop 1 item at a time, sand 2, and dust 3)
+growth crystal will drop 2 items from gravel and 2 items from dirt(in auto sieve it will render 4 dirt items and 4 gravel items)
+}
+-various bug fixes
+-various new crafting items and recipes for making stuff
+-removed enirboreh
+
+--------------------1.2--------------------
+
+-added leaf collector normal(use for extra reach to get those last leaves)
+-added leaf collector 3x3x1(extra reach + mine a 3x3x1 area)
+-added leaf collector VM (extra reach + vein mines leaves)
+-added crafts for all leaf collectors
+-added coal, diamond, steel, copper, gold, and mese super infused dirt(when active,  will rapidly grow the corresponding sprouts on top. sprouts will only grow 1 tall.)
+-added coal, diamond, steel, copper, gold and mese super sprouts
+-added growth crystal(will activate all super infused dirt within a 1 block radius.)
+-removed bronze hammer
+-changed hammer texture
+-all items in flora, leaves, flower groups can now be composted.
+-you can also now compost {  
+        'default:cactus',
+   'default:papyrus',
+   'default:dry_shrub',
+   'default:junglegrass',
+   'default:grass_1',
+   'default:dry_grass_1',
+   'farming:wheat',
+   'farming:straw',
+   'farming:cotton',
+   'skytest:silk',
+   'skytest:silkworm',
+}
+-removed enirboreh
+
+--------------------1.1--------------------
+
+-added {
+farming:seeds_wheat
+farming:seeds_cotton
+skytest:grass_seeds
+skytest:papyrus_seeds
+skytest:pine_tree_seeds
+skytest:jungle_tree_seeds
+skytest:acacia_tree_seeds
+skytest:aspen_tree_seeds
+skytest:oak_tree_seeds
+default:flint
+skytest:lapis
+skytest:cactus_seeds
+skytest:jungle_tree_seeds
+tnt:gunpowder
+skytest:redstone
+skytest:glowstone
+crops:tomato_seed
+crops:green_bean_seed
+crops:potato_eyes
+crops:melon_seed
+crops:pumpkin_seed
+crops:corn
+farming_plus:banana_sapling
+farming_plus:tomato_seed
+farming_plus:rhubarb_seed
+farming_plus:strawberry_seed
+farming_plus:orange_seed
+farming_plus:potato_seed
+farming_plus:cocoa_sapling
+farming_plus:carrot_seed
+morefarming:teosinte
+morefarming:wildcarrot
+morefarming:carrot
+morefarming:corn
+morefarming:seed_wildcarrot
+morefarming:seed_teosinte
+bushes:strawberry_empty
+bushes:raspberry_empty
+} to possible sieve drops
+-fixed all infused ore dirt(to grow them they must have water beside them, either flowing or source)
+
+--------------------1.0--------------------
+
+-added stone, steel, bronze, diamond and mese hammers
+-added sieve and auto sieve
+-added support for pipeworks with the auto sieve
+-added pebbles for crafting cobble
+-added silkworms, silk, and silk mesh
+-added cobble generator 
+-added fibrous mesh and cloth fiber
+-added crook and compressed crook
+-added infested leaves
+-added leaf press (for getting water)
+-added dense leaves(the leaf press uses 8 dense leaves)
+-added compost bin (for getting dirt)
+-added infused dirt
+-added coal, diamond, steel, copper, gold and mese infused dirt
+-added coal, diamond, steel, copper, gold and mese papy
+-added wooden bucket(can't pick up lava)
+[/code]
+Report bugs or request help on the forum topic.
+
+1.7
+[b]Download:[/b][url][/url]
+1.6
+[b]Download:[/b][url]https://drive.google.com/file/d/1NkkdSr3nhPe6xfgHEfW1YKIAFmEfXhVV/view?usp=sharing[/url]
+1.5
+[b]Download:[/b][url]https://drive.google.com/file/d/1DBgHhWfFSAm1Ix9i0gtpEAKiPzHWybuj/view?usp=sharing[/url]
+1.4
+[b]Download:[/b][url]https://github.com/RSL-Redstonier/skytest-official-release/releases/tag/v1.4[/url]
+1.3
+[b]Download:[/b][url]https://github.com/RSL-Redstonier/skytest-official-release/releases/tag/v1.3[/url]
+1.2
+[b]Download:[/b][url]https://github.com/RSL-Redstonier/skytest-official-release/releases/tag/v1.2[/url]
+1.1
+[b]Download:[/b][url]https://github.com/RSL-Redstonier/skytest-official-release/releases/tag/v1.1[/url]
+1.0
+[b]Download:[/b][url]https://github.com/RSL-Redstonier/skytest-official-release/releases/tag/v1.0[/url]
+
+I am always open to textures or ideas.

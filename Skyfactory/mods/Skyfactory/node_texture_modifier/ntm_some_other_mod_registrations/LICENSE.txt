@@ -1,0 +1,2 @@
+WTFPL  for everything what was not taken from the minetest game
+(author: cx384) 

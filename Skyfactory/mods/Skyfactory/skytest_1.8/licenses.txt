@@ -1,0 +1,9 @@
+scuba helmet main code and textures came from jordan4ibanez scuba mod released under mit license
+loot bags most main code derived from jordan4ibanez lucky ore mod released under WTFPL
+grinder base factory use textures from bees mod
+loot bags textures came from cx384's inventorybags mod
+sound and texture for time dilators came from orbs_of_time mod released under MIT
+engraving table taken from orwell's engraving table mod
+slingshot taken from the hooks mod
+neptonium things textures taken from the avaritaria mod for minecraft
+texture and main code for the subspace walker taken from bell07's subspace walker released under the GPL-V3

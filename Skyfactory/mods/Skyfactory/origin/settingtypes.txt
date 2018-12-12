@@ -1,0 +1,6 @@
+# If enabled (true by default), the Origin mod automatically sets the map
+# generator to singlenode and ignores the player-selected map generator in
+# order to create an nearly empty world with the Origin near the center.
+# Disabling this setting will make this mod place the Origin without changing
+# the map generator, so it could appear in the v6 map generator, for example.
+origin_force_singlenode (Force singlenode map generator) bool true

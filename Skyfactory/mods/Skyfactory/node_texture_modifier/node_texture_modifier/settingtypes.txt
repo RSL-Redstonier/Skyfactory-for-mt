@@ -1,0 +1,2 @@
+#Config
+node_texture_modifier_disable_dyeing (Disable dyeing) bool false

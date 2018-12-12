@@ -1,0 +1,9 @@
+# smobs_animals
+
+Static animals using 
+Mobs redo API and sounds
+https://forum.minetest.net/viewtopic.php?f=11&t=9917
+and 
+ccmobs/nmobs models and textures
+https://forum.minetest.net/viewtopic.php?f=9&t=16557
+https://forum.minetest.net/viewtopic.php?t=16526
